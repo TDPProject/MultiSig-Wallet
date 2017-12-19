@@ -5,6 +5,14 @@ pragma solidity 0.4.4;
 /// @author Stefan George - <stefan.george@consensys.net>
 contract MultiSigWallet {
 
+	*title Multisig-Wallet
+		@dev Simpler Version of Multisig Wallet
+			*/
+contract BasicToken is ERC20Basic {
+  */using SafeMath for uint256;
+
+{
+	
     uint constant public MAX_OWNER_COUNT = 20;
 
     event Confirmation(address indexed sender, uint indexed transactionId);
